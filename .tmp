@@ -4,19 +4,19 @@
       "content": {
         "parts": [
           {
-            "text": "Refactor: Expand architecture choices section\n\nExpand the architecture choices section with considerations\nfor zero trust, identity-centric access control, network\nsegmentation, micro-segmentation, and policy enforcement.\nAlso added questions to drive discussion around microservices\nvs. monolith architectures.\n"
+            "text": "feat: Add infrastructure guidelines document\n\nThis commit introduces a new document outlining infrastructure\nguidelines for project setup. It covers key areas such as cloud\nplatform selection, security, scalability, monitoring, and\ncompliance. The document includes prompts to guide decision-making\nand ensure comprehensive planning.\n"
           }
         ],
         "role": "model"
       },
       "finishReason": "STOP",
-      "avgLogprobs": -0.53116420337132042
+      "avgLogprobs": -0.34718066248400459
     }
   ],
   "usageMetadata": {
-    "promptTokenCount": 229,
-    "candidatesTokenCount": 56,
-    "totalTokenCount": 285,
+    "promptTokenCount": 801,
+    "candidatesTokenCount": 58,
+    "totalTokenCount": 859,
     "promptTokensDetails": [
       {
         "modality": "TEXT"
@@ -25,7 +25,7 @@
     "candidatesTokensDetails": [
       {
         "modality": "TEXT",
-        "tokenCount": 56
+        "tokenCount": 58
       }
     ]
   },
