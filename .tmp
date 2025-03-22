@@ -1,0 +1,33 @@
+{
+  "candidates": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Refactor: Expand architecture choices section\n\nExpand the architecture choices section with considerations\nfor zero trust, identity-centric access control, network\nsegmentation, micro-segmentation, and policy enforcement.\nAlso added questions to drive discussion around microservices\nvs. monolith architectures.\n"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "avgLogprobs": -0.53116420337132042
+    }
+  ],
+  "usageMetadata": {
+    "promptTokenCount": 229,
+    "candidatesTokenCount": 56,
+    "totalTokenCount": 285,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT"
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 56
+      }
+    ]
+  },
+  "modelVersion": "gemini-2.0-flash"
+}
