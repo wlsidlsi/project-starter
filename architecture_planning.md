@@ -8,6 +8,11 @@
 
 ## 2. Architecture Choices
 
+- Decide whether to adopt a Zero Trust model.
+- Evaluate identity-centric access control (per-user/per-device auth).
+- Decide on network segmentation strategies.
+- Plan for micro-segmentation and policy enforcement points.
+
 ### 2.1 Microservices vs. Monolith
 - What are the core services or functionalities that might be separated or combined?
 - Are there clear domain boundaries or shared domains among different modules?
