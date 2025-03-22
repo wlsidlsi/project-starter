@@ -1,0 +1,43 @@
+# Project Structure Requirements Gathering
+
+## Directory Layout for Source Code
+### Purpose
+- What languages or frameworks must be supported?
+- How should the code be organized to facilitate modular development?
+- Are there any established conventions or existing structures to follow?
+
+### Repository Structure
+- Is a monorepo approach needed or separate repos per component?
+- How will common libraries or shared code be managed?
+- What is the expected growth or scale of the project’s codebase?
+
+### Build and Deployment
+- How will build artifacts be handled?
+- Are there specific branching or versioning strategies in place?
+
+## Infrastructure-as-Code Templates
+### Template Type Selection
+- Which IaC tooling (Terraform, CloudFormation, ARM) is required or preferred?
+- Will multiple cloud providers or environments be involved?
+
+### Structure and Organization
+- How should IaC files be structured within the repository?
+- Are there requirements for modular or reusable IaC components?
+- How will environment-specific configurations be handled?
+
+### Provisioning and Deployment
+- Will resources be provisioned in multiple stages (dev, staging, prod)?
+- Are there any compliance or security constraints that affect IaC?
+
+## Naming Conventions for Resources
+### Naming Schema
+- Are there existing naming conventions that must be followed?
+- What information must be included in resource names (app name, environment, region)?
+
+### Constraints
+- Do length or character restrictions apply for certain resources?
+- Are there guidelines for tagging resources (metadata, ownership, cost center)?
+
+### Consistency and Governance
+- How will naming standards be enforced?
+- Who is responsible for maintaining the naming convention documentation?
